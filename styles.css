@@ -1,0 +1,104 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+    padding-right: 15px;
+}
+
+.clear {
+    clear: both;
+}
+
+.header {
+    float: right;
+}
+
+.links{
+    margin-top: 10px;
+    float: left;
+    font-size: small;
+    padding-top: 10px;
+}
+
+.links a {
+    text-decoration: none;
+    color: black;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
+
+.icons {
+    float: right;
+    padding-top: 5px;
+}
+
+.center {
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 200px;
+    width: 50%;
+    text-align: center;
+}
+
+.center img {
+    height: 95px;
+    width: 269px;
+}
+
+input {
+    margin: 10px;
+}
+
+.text {
+    height: 25px;
+    width: 450px;
+    background-image: url(mic.png);
+    background-repeat: no-repeat;
+    background-position: 430px;
+    border: 1px solid #cdcdcd;
+}
+
+.button {
+    background: #ECECEC;
+    border: 1px solid #dcdcdc;
+    height: 30px;
+    font-weight: bold;
+}
+
+.footer {
+    height: 50px;
+    background-color: #ececec;
+    font-size: small;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+.footer a {
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.left_footer {
+    float: left;
+    padding: 20px;
+}
+
+.right_footer {
+    float: right;
+    padding: 20px;
+}
